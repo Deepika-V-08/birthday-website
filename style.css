@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #111, #333);
+    color: white;
+    text-align: center;
+}
+
+.container {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+}
+
+h1 {
+    color: #ffcc70;
+}
+
+.card {
+    position: relative;
+}
+
+.slide {
+    width: 100%;
+    border-radius: 20px;
+    margin-top: 15px;
+    box-shadow: 0 0 15px rgba(255,255,255,0.3);
+    display: none;            /* hide all images */
+}
+
+.slide.active {
+    display: block;           /* show only active image */
+}
+
+.message {
+    margin: 15px 0;
+    font-size: 14px;
+}
+
+.btn {
+    display: block;
+    margin: 12px 0;
+    padding: 14px;
+    border-radius: 25px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.whatsapp {
+    background: #25D366;
+}
+
+.instagram {
+    background: linear-gradient(45deg, #f58529, #dd2a7b, #8134af);
+}
